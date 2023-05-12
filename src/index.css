@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+body{
+    font-family: 'Rancho', cursive;
+}
+
+.bg-header{
+    @apply bg-[url('./assets/images/more/headerTwo.jpg')] 
+}
+.bg-banner{
+    background-image: url("./assets/images//more//banner.jpeg");
+
+    @apply bg-[url("./assets/images//more//banner.jpeg")] bg-cover bg-center 
+}
+.container{
+    @apply max-w-full w-10/12 mx-auto
+}
+
+.product-bg{
+    background-image: url("./assets/images/more/4.png"), url("./assets/images//more/5.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    background-size: cover cover;
+  
+}
+
+.bg-footer{
+   
+@apply bg-[url('./assets//images//more/13.jpg')]
+}
+
+.addCoffeeBg{
+    @apply  bg-[url('./assets//images//more/11.png')] bg-cover bg-center bg-no-repeat 
+}
